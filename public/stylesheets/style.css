@@ -1,8 +1,83 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    margin: 0 0 0 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: white;
+    font-size: 70px;
+    display: flex;
+}
+
+button {
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    border: 1px;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
+}
+
+.individual-movie {
+    height: 400px;
+    width: 250px;
+}
+
+.each-movie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.all-movies-header {
+    margin-left: 80px;
+}
+
+.one-movie-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 900px;
+}
+
+.poster {
+    padding: 10px;
+    margin: 10px;
+}
+
+.description {
+    padding: 10px;
+    margin: 10px;
+}
+
+.showtimes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    list-style: none;
 }
